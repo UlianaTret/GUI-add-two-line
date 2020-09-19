@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>427</width>
+    <height>293</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>лабораторные работы</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>421</width>
+      <height>231</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>427</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>файл</string>
+    </property>
+    <addaction name="openFile"/>
+    <addaction name="saveFile"/>
+    <addaction name="newFile"/>
+    <addaction name="separator"/>
+    <addaction name="action_11"/>
+    <addaction name="action_12"/>
+    <addaction name="separator"/>
+    <addaction name="close"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>РИС</string>
+    </property>
+    <addaction name="ris1"/>
+    <addaction name="ris2"/>
+    <addaction name="ris3"/>
+    <addaction name="ris4"/>
+    <addaction name="ris5"/>
+    <addaction name="ris6"/>
+   </widget>
+   <widget class="QMenu" name="menu_5">
+    <property name="title">
+     <string>КС</string>
+    </property>
+    <addaction name="ks1"/>
+    <addaction name="ks2"/>
+    <addaction name="ks3"/>
+    <addaction name="ks4"/>
+   </widget>
+   <widget class="QMenu" name="menu_6">
+    <property name="title">
+     <string>Об авторе</string>
+    </property>
+    <addaction name="avtor"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_5"/>
+   <addaction name="menu_6"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="openFile">
+   <property name="text">
+    <string>открыть</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="saveFile">
+   <property name="text">
+    <string>сохранить</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="newFile">
+   <property name="text">
+    <string>создать</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>шифрование</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>дешифрование</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>закрыть</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </action>
+  <action name="ris1">
+   <property name="text">
+    <string>ЛР1</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>ЛР2</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>ЛР3</string>
+   </property>
+  </action>
+  <action name="action_11">
+   <property name="text">
+    <string>шифрование</string>
+   </property>
+  </action>
+  <action name="action_12">
+   <property name="text">
+    <string>дешифрование</string>
+   </property>
+  </action>
+  <action name="close">
+   <property name="text">
+    <string>закрыть</string>
+   </property>
+  </action>
+  <action name="ris2">
+   <property name="text">
+    <string>ЛР2</string>
+   </property>
+  </action>
+  <action name="ris3">
+   <property name="text">
+    <string>ЛР3</string>
+   </property>
+  </action>
+  <action name="ks1">
+   <property name="text">
+    <string>ЛР1</string>
+   </property>
+  </action>
+  <action name="ks2">
+   <property name="text">
+    <string>ЛР2</string>
+   </property>
+  </action>
+  <action name="ks3">
+   <property name="text">
+    <string>ЛР3</string>
+   </property>
+  </action>
+  <action name="avtor">
+   <property name="text">
+    <string>посмотреть</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="ks4">
+   <property name="text">
+    <string>ЛР4</string>
+   </property>
+  </action>
+  <action name="ris4">
+   <property name="text">
+    <string>ЛР4</string>
+   </property>
+  </action>
+  <action name="ris5">
+   <property name="text">
+    <string>ЛР5</string>
+   </property>
+  </action>
+  <action name="ris6">
+   <property name="text">
+    <string>ЛР6</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
