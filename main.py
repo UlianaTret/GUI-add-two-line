@@ -9,9 +9,9 @@ def iam():
 	message = QMessageBox()
 	message.setFixedHeight(100)
 	message.setFixedWidth(200)
-	message.setWindowTitle("Об авторе")
-	message.setText("Третьякова Юлиана, группа 3745")
-	message.setInformativeText('почта: user747483@mail.ru\nтелефон: +7 900 654 6559')
+	message.setWindowTitle("ГЋГЎ Г ГўГІГ®Г°ГҐ")
+	message.setText("Г’Г°ГҐГІГјГїГЄГ®ГўГ  ГћГ«ГЁГ Г­Г , ГЈГ°ГіГЇГЇГ  3745")
+	message.setInformativeText('ГЇГ®Г·ГІГ : user***@mail.ru\nГІГҐГ«ГҐГґГ®Г­: +7 900 *** ****')
 	message.exec_()
 
 def unicod(name, fam):
