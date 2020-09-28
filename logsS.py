@@ -3,6 +3,24 @@ import sys
 from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication, QStatusBar, QFileDialog, QDialog, QMessageBox
 from PyQt5.QtCore import QDateTime, QTimer
 
+def log_of_error():
+	datetime = QDateTime.currentDateTime()
+	log = str(datetime.toString('dd.MM.yyyy, hh:mm:ss.zzz ')) + 'incorrect data entered\n'
+	return log
+
+def check_one_num(num):
+	log = ''
+	try:
+		num = int(num)
+		if num < 1:
+			log = log_of_error()
+	except:
+		log = log_of_error()
+	return log
+
+def check_nums():
+	return log
+
 def logs_special(result_sum_ascii):
 	i = 0
 	log = ''
